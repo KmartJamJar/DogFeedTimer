@@ -11,13 +11,15 @@ great for a house full of people that don't communicate when or if the dog has b
 1. sudo apt-get update
 2. sudo apt-get upgrade
 3. sudo apt-get install python3-pip -y
-4. sudo apt-get install i2c-tools
-5. sudo raspi-config # enable i2c in interface options
-6. in terminal type i2cdetect -y 1 #write down and remember the number shown
-7. sudo pip3 install rpi_lcd
-8. sudo find /usr/local-name rpi_lcd 2> /dev/null
-9. sd /usr/local/lib/python3.7/dist-packages/rpi-lcd
-10. update your lcd address
+4. sudo pip3 install --upgrade setuptools
+5. sudo apt-get install -y python-smbus
+6. sudo apt-get install -y i2c-tools
+7. sudo raspi-config # enable i2c in interface options
+9. in terminal type i2cdetect -y 1 #write down and remember the number shown
+10. sudo pip3 install rpi_lcd
+11. sudo find /usr/local -name rpi_lcd 2> /dev/null
+12. sd /usr/local/lib/python3.7/dist-packages/rpi-lcd
+13. update your lcd address
 
 
 
