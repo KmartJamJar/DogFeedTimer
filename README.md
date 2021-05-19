@@ -19,9 +19,9 @@ great for a house full of people that don't communicate when or if the dog has b
 9. in terminal type i2cdetect -y 1 #write down and remember the number shown
 10. sudo pip3 install rpi_lcd
 11. sudo find /usr/local –name rpi_lcd 2> /dev/null
-12. cd /usr/local/lib/python3.7/dist-packages/rpi-lcd
-13. sudo nano __init__.py
-14. update your lcd address
+12. cd  /usr/local/lib/python3.7/dist-packages/rpi-lcd
+14. sudo nano __init__.py
+15. update your lcd address
 
 
 
