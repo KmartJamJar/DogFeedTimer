@@ -10,7 +10,7 @@ great for a house full of people that don't communicate when or if the dog has b
 
 1. sudo apt-get update
 2. sudo apt-get upgrade
-3. sudo apt install python3 idle3
+3. sudo apt-get install python-smbus
 4. sudo apt-get install i2c-tools
 5. sudo raspi-config # enable i2c in interface options
 6. in terminal type i2cdetect -y 1 #write down and remember the number shown
