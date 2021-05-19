@@ -3,6 +3,10 @@ i created a code to remind you and let you know what time of the day the dog has
 great for a house full of people that don't communicate when or if the dog has been fed
 
 
+>git clone https://github.com/KmartJamJar/DogFeedTimer
+
+
+
 
 1. sudo apt-get update
 2. sudo apt-get upgrade
